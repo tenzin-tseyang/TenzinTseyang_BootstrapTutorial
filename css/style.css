@@ -167,5 +167,7 @@ p{
     filter: invert(100%) 
 }
 .footer-tt{
-    text-align:center
+    text-align:center;
+    border-color: rgba(75,75,75,1.0) !important;
 }
+.footer-text{font}
