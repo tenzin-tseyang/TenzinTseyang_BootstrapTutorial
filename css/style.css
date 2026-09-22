@@ -1,192 +1,184 @@
 @charset "UTF-8";
 /*CSS Document*/
 
-.pink-col{
-    background-color: pink;
-    color: white;
-}
-
-.purple-col{
-    background-color: purple;
-    color: white;
-}
-.blue-col{
-    background-color: blue;
-    color:white;
-}
-
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
+/* ---------- Google Font: Nunito (static weights, not variable) ---------- */
+.nunito-regular {
+    font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.poppins-semibold {
-    font-family: "Poppins", sans-serif;
+.nunito-semibold {
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
-.poppins-bold {
-    font-family: "Poppins", sans-serif;
+.nunito-bold {
+    font-family: "Nunito", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.poppins-extrabold {
-    font-family: "Poppins", sans-serif;
+.nunito-extrabold {
+    font-family: "Nunito", sans-serif;
     font-weight: 800;
     font-style: normal;
 }
 
-.poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
+/* ---------- Base typography ---------- */
+body {
+    font-family: "Nunito", sans-serif;
     font-weight: 400;
-    font-style: italic;
+    background-color: #FDF6EC;
+    color: #5A4438;
 }
 
-.poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
-.poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
-h1{
+h1 {
+    font-family: "Nunito", sans-serif;
     font-size: 2.2rem;
-    font-weight: 700;
+    font-weight: 800;
+    color: #4A2E1F;
 }
 
-h2{
+h2 {
+    font-family: "Nunito", sans-serif;
     font-size: 1.60rem;
     font-weight: 700;
+    color: #4A2E1F;
 }
 
-h3{
+h3 {
+    font-family: "Nunito", sans-serif;
     font-size: 1.45rem;
     font-weight: 700;
+    color: #4A2E1F;
 }
 
-h4{
+h4 {
+    font-family: "Nunito", sans-serif;
     font-size: 1.30rem;
-    font-weight: 400;
+    font-weight: 600;
+    color: #4A2E1F;
 }
 
-p{
+p {
     font-size: 18px;
     font-weight: 400;
 }
 
-.bg-body-tertiary{
-    background-color: rgba(75,75,75,1.0) !important;
+/* ---------- Navbar ---------- */
+.navbar-bakery {
+    background-color: #6B4226 !important;
 }
-.navbar-brand{
-    color:rgba(245,245,245,1.00) !important;
+.navbar-brand {
+    color: #FDF6EC !important;
+    font-weight: 800;
 }
-.navlink{
-    color:rgba(200,200,200,1.00) !important;
+.navbar-bakery .nav-link {
+    color: rgba(253, 246, 236, 0.85) !important;
+    font-weight: 600;
 }
-.navlink:hover{
-    color:#ffffff !important;
+.navbar-bakery .nav-link:hover,
+.navbar-bakery .nav-link:focus {
+    color: #FDF6EC !important;
 }
-.navbar.active{
-    color:#ffffff !important;
+.navbar-bakery .nav-link.active {
+    color: #F6C89F !important;
+    border-bottom: 2px solid #F6C89F;
 }
-.navbar.toggler{
-    filter: invert(100%) 
+.navbar-bakery .navbar-toggler {
+    border-color: rgba(253, 246, 236, 0.5);
 }
-.footer-tt{
-    text-align:center;
-    border-color: rgba(75,75,75,1.0) !important;
+.navbar-bakery .navbar-toggler-icon {
+    filter: invert(100%);
+}
+.navbar-bakery .dropdown-menu {
+    background-color: #6B4226;
+}
+.navbar-bakery .dropdown-item {
+    color: rgba(253, 246, 236, 0.85);
+    font-weight: 600;
+}
+.navbar-bakery .dropdown-item:hover,
+.navbar-bakery .dropdown-item:focus {
+    background-color: #543319;
+    color: #FDF6EC;
+}
+.navbar-bakery .dropdown-item.active {
+    background-color: #543319;
+    color: #F6C89F;
+}
+
+/* ---------- Footer ---------- */
+.footer-bakery {
+    text-align: center;
+    background-color: #6B4226;
+    color: rgba(253, 246, 236, 0.85);
     font-size: 14px;
 }
-.footer-text{font-size: 14px;}
-
-.btn-primary{
-    background-color: coral;
-    border-color: coral;
+.footer-bakery p {
+    margin: 0;
+    font-size: 14px;
 }
 
-.btn-primary:hover{
-    background-color: rgba(0,113,139,1.0);
+/* ---------- Buttons ---------- */
+.btn-primary {
+    background-color: #E2934F;
+    border-color: #E2934F;
+    color: #4A2E1F;
+    font-weight: 700;
 }
 
-.btn-secondary{
-    background-color: coral!important;
-    border-color: coral!important;
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #C97A3B;
+    border-color: #C97A3B;
+    color: #FDF6EC;
 }
 
-.btn-secondary:hover{
-    background-color: rgba(0,113,139,1.0); !important;
+.btn-secondary {
+    background-color: #D98E8E !important;
+    border-color: #D98E8E !important;
+    color: #4A2E1F;
+    font-weight: 700;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: #C06B6B !important;
+    border-color: #C06B6B !important;
+    color: #FDF6EC;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    border-color: #F0DCC5;
+}
+.card-title {
+    color: #4A2E1F;
+    font-weight: 700;
+}
+
+/* ---------- Grid challenge columns ---------- */
+.col-cream {
+    background-color: #FDF1E3;
+    color: #4A2E1F;
+}
+.col-pink {
+    background-color: #F3D9DA;
+    color: #4A2E1F;
+}
+.col-peach {
+    background-color: #F6C89F;
+    color: #4A2E1F;
+}
+
+/* ---------- Accordion (component page) ---------- */
+.accordion-button:not(.collapsed) {
+    background-color: #F6C89F;
+    color: #4A2E1F;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(226, 147, 79, 0.35);
 }
