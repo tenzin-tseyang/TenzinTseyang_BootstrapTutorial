@@ -1,2 +1,17 @@
 @charset "UTF-8";
 /*CSS Document*/
+
+.pink-col{
+    background-color: pink;
+    color: white;
+}
+
+.yellow-col{
+    background-color: yellow;
+    color: white;
+}
+.blue-col{
+    background-color: blue;
+    color:white;
+}
+
