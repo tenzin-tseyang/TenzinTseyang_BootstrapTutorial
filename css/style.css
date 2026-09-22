@@ -145,3 +145,6 @@ p{
 .navlink:hover{
     color:#fff !important;
 }
+.navbar.active{
+    color:#fff !important;
+}
