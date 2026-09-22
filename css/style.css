@@ -166,3 +166,6 @@ p{
 .navbar.toggler{
     filter: invert(100%) 
 }
+.footer-cy{
+    text-align:center
+}
