@@ -148,3 +148,6 @@ p{
 .navbar.active{
     color:#fff !important;
 }
+.navbar.toggler{
+    filter: invert(100%) 
+}
